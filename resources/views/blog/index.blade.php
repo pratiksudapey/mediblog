@@ -4,7 +4,7 @@
     <div class="px-16 py-8 xl:ml-auto xl:mr-auto xl:w-[1280px]">
       <div class="mt-8 h-full md:mt-12">
         @for ($i = 0; $i < 6; $i++)
-          <div class="mt-6 flex flex-wrap items-center bg-blue-950">
+          <div class="mx-36 mt-6 flex flex-wrap items-center bg-blue-950">
             <div class="flex flex-col md:w-1/4">
               <a href="">
                 <img class="h-auto w-3/4 object-cover md:rounded-none" src="{{ asset('assets/images/my.jpg') }}"
